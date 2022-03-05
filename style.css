@@ -16,6 +16,29 @@ body {
     align-items: center;
 }
 
-.leftBox {
+.leftBox h1 {
     font-family: var(--head-font);
 }
+
+.techLogo h1 {
+    margin: 0%;
+    padding: 0%;
+}
+
+.christLogo {
+    width: 300px;
+}
+
+.link {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
