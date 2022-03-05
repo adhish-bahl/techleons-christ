@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,700&family=Source+Code+Pro&display=swap');
 
 :root {
-    --gen-font: "Merriweather, serif";
-    --head-font: "Source Code Pro, monospace";
+    --gen-font: 'Merriweather', serif;
+    --head-font: 'Source Code Pro', monospace;
 }
 
 body {
-    background-image: url(./images/background.svg);
     text-align: center;
+}
+
+body::before {
+    content: "";
+    background: url('./images/background.svg') no-repeat center center/cover;
+    opacity: 0.70;
+    z-index: -51;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    min-width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
 .navigationBar {
@@ -16,8 +28,8 @@ body {
     align-items: center;
 }
 
-.leftBox h1 {
-    font-family: var(--head-font);
+.techLogo h1 {
+    font-family: var(--gen-font);
 }
 
 .techLogo h1 {
@@ -42,3 +54,6 @@ body {
     flex-direction: column;
 }
 
+.footer div {
+    margin: 20px 0px;
+}
