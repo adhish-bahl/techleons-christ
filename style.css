@@ -2,3 +2,13 @@ body {
     background-image: url(./images/background.svg);
     text-align: center;
 }
+
+.navigationBar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.christUniversity {
+    
+}
