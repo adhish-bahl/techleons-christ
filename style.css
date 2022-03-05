@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,700&family=Source+Code+Pro&display=swap');
+
+:root {
+    --gen-font: "Merriweather, serif";
+    --head-font: "Source Code Pro, monospace";
+}
+
 body {
     background-image: url(./images/background.svg);
     text-align: center;
@@ -7,4 +14,8 @@ body {
     display: flex;
     justify-content:space-between;
     align-items: center;
+}
+
+.leftBox {
+    font-family: var(--head-font);
 }
