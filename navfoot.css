@@ -5,21 +5,29 @@
     --head-font: 'Source Code Pro', monospace;
 }
 
-body {
-    text-align: center;
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body::before {
+body, li, a {
+    text-align: center;
+    font-family: var(--gen-font);
+    text-decoration: none;
+    list-style: none;
+ }
+
+.navigationBar::before {
     content: "";
     background: url('./images/background.svg') no-repeat center center/cover;
     opacity: 0.70;
-    z-index: -51;
+    z-index: -50;
     position: absolute;
     top: 0%;
     left: 0%;
     min-width: 100vw;
     min-height: 100vh;
-    box-sizing: border-box;
 }
 
 .navigationBar {
@@ -28,11 +36,12 @@ body::before {
     align-items: center;
 }
 
-.techLogo h1 {
-    font-family: var(--gen-font);
+.leftBox {
+    margin-left: 20px;
 }
 
 .techLogo h1 {
+    font-family: var(--gen-font);
     margin: 0%;
     padding: 0%;
 }
@@ -43,8 +52,14 @@ body::before {
 
 .link {
     margin: 0px 10px;
-    text-decoration: none;
     color: black;
+}
+
+.getStarted button {
+    padding: 20px;
+    border-radius: 20px;
+    /* text-align: center; */
+    /* font-family: var(--gen-font); */
 }
 
 .footer {
