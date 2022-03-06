@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>About Us | TECHLEONS</title>
 </head>
-<body>
+<body onload="activate()">
     <div class="navigationBar">
         <div class="leftBox techLogo">
             <h1>MISSION </h1>
@@ -16,7 +16,7 @@
         </div>
         <div class="centerBox">
             <a href="index.html" class="link">Home</a>
-            <a href="about-us.html" class="link">About Us</a>
+            <a href="about-us.html" class="link active">About Us</a>
             <a href="events.html" class="link">Events</a>
             <a href="schedule.html" class="link">Schedule</a>
             <a href="team.html" class="link">Our Team</a>
@@ -42,4 +42,11 @@
         </div>
     </div>
 </body>
+
+<script>
+    const activate = () => {
+        const allLinks = document.querySelectorAll(".link").classList.remove("active");
+        const addActive = document.getElementsByClassName("about").classList.add("active");
+    }
+</script>
 </html>

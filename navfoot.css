@@ -22,6 +22,7 @@ body, li, a {
 .navigationBar::before {
     content: "";
     background: url('./images/background.svg') no-repeat center center/cover;
+    background-attachment: fixed;
     opacity: 0.70;
     z-index: -50;
     position: absolute;
@@ -57,6 +58,7 @@ body, li, a {
 .link {
     margin: 0px 10px;
     color: black;
+    padding: 5px;
 }
 
 .getStarted button {
@@ -77,4 +79,10 @@ body, li, a {
 
 .footer div {
     margin: 25px 0px;
+}
+
+.active {
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
 }
