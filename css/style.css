@@ -62,13 +62,13 @@ body {
   
 .getStartedBtn:hover span {
   padding-right: 25px;
+  color: white;
 }
   
 .getStartedBtn:hover span:after {
   opacity: 1;
   right: 0;
 }
-
 
 .getStartedBtn a {
   color: black;
