@@ -1,63 +1,77 @@
 * {
-	box-sizing:border-box;
+	/* box-sizing:border-box; */
 	scroll-behavior: smooth;
 }
 
 body {
 	content: "";
-    background: url('./images/background.svg') no-repeat center center/cover;
-    background-attachment: fixed;
-    /* opacity: 0.50; */
-    z-index: -50;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    min-height: 100vh;
+  background: url('./images/background.svg') no-repeat center center/cover;
+  background-attachment: fixed;
+  /* opacity: 0.50; */
+  z-index: -50;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* .getStarted button {
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: var(--gen-font);
+} */
+
+.btn {
+    /* text-align: right; */
+    margin: 0px 100px;
+    box-sizing:content-box;
 }
 
 .getStartedBtn {
-    border-radius: 10px;
-    background-color: grey;
-    border: none;
-	  border: 1px solid black;
-    text-align: center;
-    font-size: 1rem;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin:  35px 15px;
-  }
+  border-radius: 10px;
+  background-color: grey;
+  border: none;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 1rem;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin:  35px 15px;
+}
   
-  .getStartedBtn span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
+.getStartedBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
   
-  .getStartedBtn span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
+.getStartedBtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 	/* font-size: 2rem; */
-  }
+}
   
-  .getStartedBtn:hover span {
-    padding-right: 25px;
-  }
+.getStartedBtn:hover span {
+  padding-right: 25px;
+}
   
-  .getStartedBtn:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
+.getStartedBtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 
 .getStartedBtn a {
-    color: black;
+  color: black;
 }
 
 .heading div {
@@ -73,19 +87,17 @@ div.mainHeading {
 	font-size: 2rem;
 }
 
-.desc {
+/* .desc {
 	text-align: justify;
-}
-
-.btn {
-	/* text-align: right; */
-	margin: 0px 100px;
-	box-sizing:content-box;
-}
+  color: white;
+} */
 
 .theme {
-	margin: 50px 0px;
+  margin: 50px 0px;
+  color: white;
 }
+
+/* EVENTS PAGE */
 
 .event:nth-child(odd) {
   display: flex;

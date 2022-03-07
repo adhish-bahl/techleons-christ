@@ -62,13 +62,6 @@ body, li, a {
     padding: 5px;
 }
 
-.getStarted button {
-    padding: 20px;
-    border-radius: 20px;
-    /* text-align: center; */
-    /* font-family: var(--gen-font); */
-}
-
 .footer {
     display: flex;
     justify-content: center;
@@ -81,6 +74,11 @@ body, li, a {
 .footer div {
     margin: 15px 0px;
 }
+
+/* Let's add color logo of Insta and style it with hovering */
+/* .footer .socialLinks .instaLogo:hover {
+    color: aqua;
+} */
 
 .active {
     border: 1.5px solid black;
