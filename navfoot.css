@@ -22,7 +22,7 @@ body, li, a {
 }
 
 .navigationBar::before {
-    content: "";
+    /* content: "";
     background: url('./images/background.svg') no-repeat center center/cover;
     background-attachment: fixed;
     opacity: 0.50;
@@ -31,7 +31,7 @@ body, li, a {
     top: 0%;
     left: 0%;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100vh; */
 }
 
 .navigationBar {
