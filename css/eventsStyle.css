@@ -1,0 +1,9 @@
+.event:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.event:nth-child(odd) {
+    display: flex;
+    flex-direction: row-reverse;
+}

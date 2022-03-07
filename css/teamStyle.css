@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url('./images/background.svg') no-repeat center center/cover;
+  background: url('../images/background.svg') no-repeat center center/cover;
   /* background-image: url('./images/bg.jfif'); */
   background-attachment: fixed;
   /* opacity: 0.50; */
