@@ -28,7 +28,7 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 50px;
-    background-color: rgba(240, 248, 255, 0.384);
+    /* background-color: rgba(240, 248, 255, 0.384); */
 }
 
 .person img {
@@ -45,10 +45,23 @@ body {
 }
 
 .email {
+    font-size: .9rem;
+}
 
+.regno {
+    font-size: 1rem;
 }
 
 .pos, .work {
     font-weight: bold;
 }
 
+.heading {
+    font-size: 2rem;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.person a {
+    color: black;
+}
