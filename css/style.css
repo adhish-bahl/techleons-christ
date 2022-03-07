@@ -4,16 +4,21 @@
 }
 
 body {
-	content: "";
-  background: url('../images/background.svg') no-repeat center center/cover;
-  background-attachment: fixed;
-  /* opacity: 0.50; */
-  z-index: -50;
-  position: absolute;
-  top: 0%;
-  left: 0%;
+  /* background: url('../images/background.svg') no-repeat center center/cover; */
+  /* background-attachment: fixed; */
   width: 100%;
   min-height: 100vh;
+  background-color: rgb(166,166,166);
+}
+
+.paralax {
+  background-image: url("../images/background.svg");
+  height: 85vh; 
+  /* width: 100%; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* .getStarted button {
@@ -94,5 +99,10 @@ div.mainHeading {
 
 .theme {
   margin: 50px 0px;
-  color: white;
+  color: black;
+  font-size: 2rem;font-weight: bold;
+}
+
+.container {
+  background-color: white;
 }
