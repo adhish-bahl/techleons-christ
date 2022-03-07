@@ -5,7 +5,7 @@
 
 body {
 	content: "";
-  background: url('./images/background.jpg') no-repeat center center/cover;
+  background: url('./images/background.svg') no-repeat center center/cover;
   background-attachment: fixed;
   /* opacity: 0.50; */
   z-index: -50;
@@ -95,15 +95,4 @@ div.mainHeading {
 .theme {
   margin: 50px 0px;
   color: white;
-}
-
-/* EVENTS PAGE */
-
-.event:nth-child(odd) {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.event:nth-child(even) {
-  display: flex;
 }
