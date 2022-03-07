@@ -106,3 +106,18 @@ div.mainHeading {
 .container {
   background-color: white;
 }
+
+.content {
+  margin: 100px 100px;
+}
+
+.heading {
+  margin-top: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+.desc {
+  text-align: justify;
+}
