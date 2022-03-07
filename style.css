@@ -20,7 +20,7 @@ body {
     border-radius: 10px;
     background-color: grey;
     border: none;
-	border: 1px solid black;
+	  border: 1px solid black;
     text-align: center;
     font-size: 1rem;
     padding: 20px;
@@ -87,3 +87,11 @@ div.mainHeading {
 	margin: 50px 0px;
 }
 
+.event:nth-child(odd) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.event:nth-child(even) {
+  display: flex;
+}

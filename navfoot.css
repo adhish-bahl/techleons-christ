@@ -10,7 +10,6 @@
     padding: 0;
     box-sizing: border-box;
     /* overflow-x: hidden; */
-
 }
 
 body, li, a {
@@ -21,8 +20,8 @@ body, li, a {
     margin: 0%;
 }
 
-.navigationBar::before {
-    /* content: "";
+/* .navigationBar::before {
+    content: "";
     background: url('./images/background.svg') no-repeat center center/cover;
     background-attachment: fixed;
     opacity: 0.50;
@@ -31,8 +30,8 @@ body, li, a {
     top: 0%;
     left: 0%;
     width: 100%;
-    min-height: 100vh; */
-}
+    min-height: 100vh;
+} */
 
 .navigationBar {
     display: flex;
