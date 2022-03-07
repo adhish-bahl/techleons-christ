@@ -1,5 +1,6 @@
 * {
 	box-sizing:border-box;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -26,7 +27,7 @@ body {
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 25px;
+    margin:  35px 15px;
   }
   
   .getStartedBtn span {
@@ -43,6 +44,7 @@ body {
     top: 0;
     right: -20px;
     transition: 0.5s;
+	/* font-size: 2rem; */
   }
   
   .getStartedBtn:hover span {
@@ -58,14 +60,30 @@ body {
     color: black;
 }
 
-.heading h4, .heading h2 {
-	text-align: left;
-	margin-right: 50vw;
-	margin-left: 20px;
+.heading div {
+	/* text-align: c; */
+	/* margin-right: 50vw; */
+	/* margin-left: 20px; */
+	margin: 25px 250px;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+div.mainHeading {
+	font-size: 2rem;
+}
+
+.desc {
+	text-align: justify;
 }
 
 .btn {
-	text-align: right;
-	margin: 100px;
+	/* text-align: right; */
+	margin: 0px 100px;
 	box-sizing:content-box;
 }
+
+.theme {
+	margin: 50px 0px;
+}
+
