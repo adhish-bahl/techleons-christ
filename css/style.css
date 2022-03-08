@@ -1,11 +1,8 @@
 * {
-	/* box-sizing:border-box; */
 	scroll-behavior: smooth;
 }
 
 body {
-  /* background: url('../images/background.svg') no-repeat center center/cover; */
-  /* background-attachment: fixed; */
   width: 100%;
   min-height: 100vh;
   background-color: rgb(166,166,166);
@@ -14,22 +11,13 @@ body {
 .paralax {
   background-image: url("../images/background.svg");
   height: 85vh; 
-  /* width: 100%; */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* .getStarted button {
-  padding: 20px;
-  border-radius: 20px;
-  text-align: center;
-  font-family: var(--gen-font);
-} */
-
 .btn {
-    /* text-align: right; */
     margin: 0px 100px;
     box-sizing:content-box;
 }
@@ -62,7 +50,6 @@ body {
   top: 0;
   right: -20px;
   transition: 0.5s;
-	/* font-size: 2rem; */
 }
   
 .getStartedBtn:hover span {
@@ -80,9 +67,6 @@ body {
 }
 
 .heading div {
-	/* text-align: c; */
-	/* margin-right: 50vw; */
-	/* margin-left: 20px; */
 	margin: 25px 250px;
 	font-size: 1.2rem;
 	font-weight: bold;
@@ -91,11 +75,6 @@ body {
 div.mainHeading {
 	font-size: 2rem;
 }
-
-/* .desc {
-	text-align: justify;
-  color: white;
-} */
 
 .theme {
   margin: 50px 0px;
@@ -120,4 +99,53 @@ div.mainHeading {
 
 .desc {
   text-align: justify;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .getStartedBtn {
+    margin: 0%;
+    margin-bottom: 50px;
+  }
+
+  .heading div {
+    margin: 20px 20px;
+    font-size: 1rem;
+  }
+
+  div.mainHeading {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .theme {
+    margin: 0px 0px;
+    margin-top: 50px;
+  }
+
+  .content {
+    margin: 0px 0px;
+  }
+  
+  .desc {
+    font-size: .5rem;
+  }
+  .paralax {
+    height: 90vh;
+  }
+
+  div.techLogo h1 {
+    font-size: 1.5rem;
+  }
+
+  div.techLogo {
+    margin-bottom: 20px;
+  }
+
+  div.copyright {
+    font-size: 1rem;
+    margin: 0px 30px;
+    margin-bottom: 20px;
+  }
 }
