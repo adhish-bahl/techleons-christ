@@ -20,19 +20,6 @@ body, li, a {
     color: black;
 }
 
-/* .navigationBar::before {
-    content: "";
-    background: url('./images/background.svg') no-repeat center center/cover;
-    background-attachment: fixed;
-    opacity: 0.50;
-    z-index: -50;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    min-height: 100vh;
-} */
-
 .navigationBar {
     display: flex;
     justify-content:space-between;
@@ -88,9 +75,6 @@ body, li, a {
 
 
 @media only screen and (max-width: 600px) {
-    /* div.link h1 {
-        font-size: 1rem;
-    } */
 
     .techLogo h1{
         font-size: 1.3rem;
@@ -104,9 +88,17 @@ body, li, a {
         font-size: 1.5rem;
     }
 
+    div.techLogo {
+        margin-bottom: 20px;
+    }
     
+    div.copyright {
+        font-size: 1rem;
+        margin: 0px 30px;
+        margin-bottom: 20px;
+    }
 
-    .footer div {
-        margin: 0px 0px;
+    .centerBox  {
+        display: none;
     }
   }

@@ -76,3 +76,36 @@ div.mainHeading {
   opacity: 1;
   right: 0;
 }
+
+@media only screen and (max-width: 1200px) {
+  .getStartedBtn {
+    margin: 0%;
+    margin-bottom: 50px;
+  }
+
+  .heading div {
+    margin: 20px 20px;
+    font-size: 1rem;
+  }
+
+  div.mainHeading {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .theme {
+    margin: 0px 0px;
+    margin-top: 50px;
+  }
+
+  .content {
+    margin: 0px 0px;
+  }
+  
+  .desc {
+    font-size: .5rem;
+  }
+  .paralax {
+    height: 90vh;
+  }
+}
