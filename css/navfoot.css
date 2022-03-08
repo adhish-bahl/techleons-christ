@@ -6,39 +6,24 @@
 }
 
 * {
-    /* margin: 0; */
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow-x: hidden; */
 }
 
 body, li, a {
-    text-align: center;
     font-family: var(--gen-font);
+    color: black;
     text-decoration: none;
     list-style: none;
-    margin: 0%;
-    color: black;
+    text-align: center;
 }
-
-/* .navigationBar::before {
-    content: "";
-    background: url('./images/background.svg') no-repeat center center/cover;
-    background-attachment: fixed;
-    opacity: 0.50;
-    z-index: -50;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    min-height: 100vh;
-} */
 
 .navigationBar {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: grey;
+    background-color: rgb(156, 152, 152);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -47,20 +32,12 @@ body, li, a {
     margin-left: 20px;
 }
 
-.techLogo h1 {
-    font-family: var(--gen-font);
-    margin: 0%;
-    padding: 0%;
-}
-
 .christLogo {
     width: 300px;
 }
 
 .link {
-    margin: 0px 10px;
-    color: black;
-    padding: 5px;
+    padding: 0 10px;
 }
 
 .link:hover {
@@ -70,17 +47,18 @@ body, li, a {
 
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-color: rgba(128, 128, 128, 0.527);
     padding: 3vh 0px;
+    background-color: rgb(156, 152, 152);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .footer div {
-    margin: 15px 0px;
+    margin: 10px 0px;
 }
-
 
 .active {
     border: 1.5px solid black;
