@@ -1,25 +1,11 @@
-body {
-	content: "";
-  /* background: url('../images/background.svg') no-repeat center center/cover; */
-  background-attachment: fixed;
-  /* opacity: 0.50; */
-  z-index: -50;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  min-height: 100vh;
-}
-
 .event {
     display: flex;
-    padding: 5em 10em;
     align-items: center;
+    margin: 5em;
+    padding: 2em 5em;
     background-color: rgba(128, 128, 128, 0.527);
     border: 1px solid black;
     border-radius: 50px;
-    margin: 5em;
-    color: black;
 }
 
 .event .logo {
@@ -33,61 +19,49 @@ body {
     padding-left: 3rem;
 }
 
-.event .head h3 {
-    margin-bottom: 0;
-}
-
 .event .head .email {
     padding-left: 0;
 }
 
-.btn {
-    /* text-align: right; */
-    /* margin: 0px 50px; */
-    box-sizing: content-box;
+.name, .desc, .head {
+  padding-bottom: 1rem;
 }
 
+/* .btn {
+  background-color: rgba(128, 128, 128, 0.527);
+  padding-bottom: 4rem;
+} */
+
 .getStartedBtn {
-    border-radius: 10px;
-    /* background-color: grey; */
-    border: none;
-    border: 1px solid black;
-    text-align: center;
-    font-size: 1rem;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin:  35px 15px;
-  }
-    
-  .getStartedBtn span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-    
-  .getStartedBtn span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-    /* font-size: 2rem; */
-  }
-    
-  .getStartedBtn:hover span {
-    padding-right: 25px;
-    color: white;
-  }
-    
-  .getStartedBtn:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
   
-  .getStartedBtn a {
-    color: black;
-  }
+.getStartedBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+  
+.getStartedBtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+  
+.getStartedBtn:hover span {
+  padding-right: 25px;
+}
+  
+.getStartedBtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
