@@ -5,9 +5,7 @@
 
 body {
   background: url('../images/background.svg') no-repeat center center/cover;
-  /* background-image: url('./images/bg.jfif'); */
   background-attachment: fixed;
-  /* opacity: 0.50; */
   z-index: -50;
   position: absolute;
   top: 0%;
@@ -28,7 +26,6 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 50px;
-    /* background-color: rgba(240, 248, 255, 0.384); */
 }
 
 .person img {
@@ -64,4 +61,12 @@ body {
 
 .person a {
     color: black;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
 }

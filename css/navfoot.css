@@ -92,9 +92,27 @@ body, li, a {
         font-size: 1rem;
     } */
 
+    .techLogo h1{
+        font-size: 1.3rem;
+    }
+
     .christLogo {
         width: 150px;
     }
+
+    div.techLogo h1 {
+        font-size: 1.5rem;
+    }
+
+    div.techLogo {
+        margin-bottom: 20px;
+      }
+    
+      div.copyright {
+        font-size: 1rem;
+        margin: 0px 30px;
+        margin-bottom: 20px;
+      }.
 
     .footer div {
         margin: 0px 0px;

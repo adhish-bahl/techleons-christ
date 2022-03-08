@@ -134,18 +134,4 @@ div.mainHeading {
   .paralax {
     height: 90vh;
   }
-
-  div.techLogo h1 {
-    font-size: 1.5rem;
-  }
-
-  div.techLogo {
-    margin-bottom: 20px;
-  }
-
-  div.copyright {
-    font-size: 1rem;
-    margin: 0px 30px;
-    margin-bottom: 20px;
-  }
 }
