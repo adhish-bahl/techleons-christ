@@ -1,0 +1,11 @@
+.heading {
+    padding: 30px 0;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.desc {
+    padding: 3rem 20rem;
+    text-align: justify;
+    background-color: rgba(128, 128, 128, 0.527);
+}
