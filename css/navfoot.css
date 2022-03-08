@@ -79,7 +79,6 @@ body, li, a {
     margin: 15px 0px;
 }
 
-
 .active {
     border: 1.5px solid black;
     padding: 5px 10px;
@@ -104,15 +103,7 @@ body, li, a {
         font-size: 1.5rem;
     }
 
-    div.techLogo {
-        margin-bottom: 20px;
-      }
     
-      div.copyright {
-        font-size: 1rem;
-        margin: 0px 30px;
-        margin-bottom: 20px;
-      }.
 
     .footer div {
         margin: 0px 0px;
