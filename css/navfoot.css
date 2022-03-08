@@ -65,3 +65,18 @@ body, li, a {
     padding: 5px 10px;
     border-radius: 10px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    /* div.link h1 {
+        font-size: 1rem;
+    } */
+
+    .christLogo {
+        width: 150px;
+    }
+
+    .footer div {
+        margin: 0px 0px;
+    }
+  }
