@@ -1,6 +1,9 @@
 .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 0 10rem;
 }
 
@@ -12,11 +15,13 @@
 }
 
 .person {
+    /* display: inline; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 50px;
+
 }
 
 .person img {
@@ -42,4 +47,38 @@
 
 .person a {
     color: black;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .heading {
+        padding: 1.5rem 0rem;
+        font-size: 1.3rem;
+        background-color: rgba(128, 128, 128, 0.527);
+    }
+    
+    .person {
+        margin: 25px 25px;
+    }
+
+    .person img {
+        height: 120px;
+    }
+    
+    .name{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    
+    .email {
+        font-size: .6rem;
+    }
+    
+    .regno {
+        font-size: .8rem;
+    }
 }

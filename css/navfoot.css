@@ -6,25 +6,31 @@
 }
 
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
 body, li, a {
+    text-align: center;
     font-family: var(--gen-font);
-    color: black;
     text-decoration: none;
     list-style: none;
-    text-align: center;
+    margin: 0%;
+    color: black;
 }
+
+/* body {
+    background-color: grey;
+} */
 
 .navigationBar {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: rgb(156, 152, 152);
+    /* background-color: grey; */
+    /* background-color: #05C7BA; */
+    background-color: #028D83;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -33,12 +39,20 @@ body, li, a {
     margin-left: 20px;
 }
 
+.techLogo h1 {
+    font-family: var(--gen-font);
+    margin: 0%;
+    padding: 0%;
+}
+
 .christLogo {
     width: 300px;
 }
 
 .link {
-    padding: 0 10px;
+    margin: 0px 10px;
+    color: black;
+    padding: 5px;
 }
 
 .link:hover {
@@ -48,36 +62,51 @@ body, li, a {
 
 .footer {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    /* background-color: rgba(128, 128, 128, 0.527); */
+    /* background-color: #05C7BA; */
+    background-color: #028D83;
     padding: 3vh 0px;
-    background-color: rgb(156, 152, 152);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
 
 .footer div {
-    margin: 10px 0px;
+    margin: 15px 0px;
 }
 
 .active {
     border: 1.5px solid black;
+    color: white;
     padding: 5px 10px;
     border-radius: 10px;
 }
 
-
 @media only screen and (max-width: 600px) {
-    /* div.link h1 {
-        font-size: 1rem;
-    } */
+
+    .techLogo h1{
+        font-size: 1.3rem;
+    }
 
     .christLogo {
         width: 150px;
     }
 
-    .footer div {
-        margin: 0px 0px;
+    div.techLogo h1 {
+        font-size: 1.5rem;
+    }
+
+    div.techLogo {
+        margin-bottom: 20px;
+    }
+    
+    div.copyright {
+        font-size: 1rem;
+        margin: 0px 30px;
+        margin-bottom: 20px;
+    }
+
+    .centerBox  {
+        display: none;
     }
   }

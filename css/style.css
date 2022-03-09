@@ -21,7 +21,9 @@
   padding: 50px 0 20px 0;
   font-weight: bold;
   font-size: 1.4rem;
-  background-color: rgba(128, 128, 128, 0.527);
+  /* background-color: rgba(128, 128, 128, 0.527); */
+  /* background-color: #028D83; */
+  background-color: #05C7BA;
 }
 
 .heading div {
@@ -39,7 +41,8 @@ div.mainHeading {
 }
 
 .btn {
-  background-color: rgba(128, 128, 128, 0.527);
+  /* background-color: rgba(128, 128, 128, 0.527); */
+  background-color: #05C7BA;
   padding-bottom: 4rem;
 }
 
@@ -75,4 +78,37 @@ div.mainHeading {
 .getStartedBtn:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .getStartedBtn {
+    margin: 0%;
+    margin-bottom: 50px;
+  }
+
+  .heading div {
+    margin: 20px 20px;
+    font-size: 1rem;
+  }
+
+  div.mainHeading {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .theme {
+    margin: 0px 0px;
+    margin-top: 50px;
+  }
+
+  .content {
+    margin: 0px 0px;
+  }
+  
+  .desc {
+    font-size: .5rem;
+  }
+  .paralax {
+    height: 90vh;
+  }
 }
