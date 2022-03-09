@@ -1,7 +1,3 @@
-* {
-	scroll-behavior: smooth;
-}
-
 .parallax {
   background-image: url("../images/suit.png");
   background-attachment: fixed;
@@ -21,9 +17,7 @@
   padding: 50px 0 20px 0;
   font-weight: bold;
   font-size: 1.4rem;
-  /* background-color: rgba(128, 128, 128, 0.527); */
-  /* background-color: #028D83; */
-  background-color: #05C7BA;
+  background-color: rgba(128, 128, 128, 0.527);
 }
 
 .heading div {
@@ -41,8 +35,7 @@ div.mainHeading {
 }
 
 .btn {
-  /* background-color: rgba(128, 128, 128, 0.527); */
-  background-color: #05C7BA;
+  background-color: rgba(128, 128, 128, 0.527);
   padding-bottom: 4rem;
 }
 
@@ -81,11 +74,6 @@ div.mainHeading {
 }
 
 @media only screen and (max-width: 1200px) {
-  .getStartedBtn {
-    margin: 0%;
-    margin-bottom: 50px;
-  }
-
   .heading div {
     margin: 20px 20px;
     font-size: 1rem;
@@ -96,11 +84,6 @@ div.mainHeading {
     font-weight: bold;
   }
 
-  .theme {
-    margin: 0px 0px;
-    margin-top: 50px;
-  }
-
   .content {
     margin: 0px 0px;
   }
@@ -108,7 +91,12 @@ div.mainHeading {
   .desc {
     font-size: .5rem;
   }
-  .paralax {
-    height: 90vh;
+
+  .parallax {
+    height: 100vh;
+  }
+
+  .theme {
+    margin: 50px 0px 0px 0px;
   }
 }
