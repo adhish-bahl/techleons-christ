@@ -78,10 +78,10 @@ div.mainHeading {
 }
 
 @media only screen and (max-width: 1200px) {
-  .getStartedBtn {
+  /* .getStartedBtn {
     margin: 0%;
     margin-bottom: 50px;
-  }
+  } */
 
   .heading div {
     margin: 20px 20px;
@@ -94,8 +94,7 @@ div.mainHeading {
   }
 
   .theme {
-    margin: 0px 0px;
-    margin-top: 50px;
+    margin: 50px 0px 0px 0px;
   }
 
   .content {
@@ -105,7 +104,8 @@ div.mainHeading {
   .desc {
     font-size: .5rem;
   }
-  .paralax {
+
+  .parallax {
     height: 90vh;
   }
 }
