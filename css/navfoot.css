@@ -20,11 +20,17 @@ body, li, a {
     color: black;
 }
 
+/* body {
+    background-color: grey;
+} */
+
 .navigationBar {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: grey;
+    /* background-color: grey; */
+    /* background-color: #05C7BA; */
+    background-color: #028D83;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -59,7 +65,9 @@ body, li, a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(128, 128, 128, 0.527);
+    /* background-color: rgba(128, 128, 128, 0.527); */
+    /* background-color: #05C7BA; */
+    background-color: #028D83;
     padding: 3vh 0px;
 }
 
@@ -69,10 +77,10 @@ body, li, a {
 
 .active {
     border: 1.5px solid black;
+    color: white;
     padding: 5px 10px;
     border-radius: 10px;
 }
-
 
 @media only screen and (max-width: 600px) {
 

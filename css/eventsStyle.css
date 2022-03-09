@@ -3,7 +3,9 @@
     align-items: center;
     margin: 5em;
     padding: 2em 5em;
-    background-color: rgba(128, 128, 128, 0.527);
+    /* background-color: rgba(128, 128, 128, 0.527); */
+    background-color: rgba(180, 179, 179, 0.527);
+    /* background-color: #05C7BA; */
     border: 1px solid black;
     border-radius: 50px;
 }
