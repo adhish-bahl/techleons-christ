@@ -20,6 +20,10 @@ body, li, a {
     color: black;
 }
 
+/* .burger {
+    display: none;
+} */
+
 /* body {
     background-color: grey;
 } */
@@ -65,8 +69,6 @@ body, li, a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* background-color: rgba(128, 128, 128, 0.527); */
-    /* background-color: #05C7BA; */
     background-color: #028D83;
     padding: 3vh 0px;
 }
@@ -82,7 +84,11 @@ body, li, a {
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
+
+    .burger{
+        position: block;
+    }
 
     .techLogo h1{
         font-size: 1.3rem;
@@ -109,4 +115,81 @@ body, li, a {
     .centerBox  {
         display: none;
     }
+    
   }
+
+
+  nav .burger {
+    /* border: 1px solid white; */
+    height: 50px;
+    width: 50px;
+    padding: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all .7s ease;
+}
+
+
+  .line {
+    width: 27px;
+    height: 3px;
+    /* background-color: rgb(175, 165, 165); */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.line:before,
+.line:after {
+    content: '';
+    width: 27px;
+    height: 3px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: all .4s ease;
+}
+
+.line:before {
+    margin-top: -8px;
+}
+
+.line:after {
+    margin-top: 8px;
+}
+
+.active1 .line:before {
+    transform: rotate(45deg);
+    background-color: #EE316B;
+    margin-top: 0;
+}
+
+.active1 .line:after {
+    transform: rotate(135deg);
+    background-color: #EE316B;
+    margin-top: 0;
+}
+
+.active1 {
+    background-color: rgba(248, 247, 239, 0.2);
+}
+
+.active1 .line:before {
+    transform: rotate(45deg);
+    background-color: #EE316B;
+    margin-top: 0;
+}
+
+.active1 .line:after {
+    transform: rotate(135deg);
+    background-color: #EE316B;
+    margin-top: 0;
+}
+
+nav .slide {
+    transform: translateX(0%);
+}
+
+.vanish {
+    background-color: rgba(0, 0, 0, 0);
+}
