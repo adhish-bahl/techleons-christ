@@ -106,23 +106,20 @@ body, li, a {
 
 .desktopNav {
     display: block;
-  }
+}
   
-  .test {
+.test {
     display: flex;
     justify-content:space-around;
     align-items: center;
     width: 100%;
   }
-  .mobileNav {
+  
+.mobileNav {
     display: none;
   }
 
 @media only screen and (max-width: 1200px) {
-    .burger {
-        position: block;
-    }
-
     .techLogo h1 {
         font-size: 1.3rem;
     }
@@ -168,67 +165,6 @@ body, li, a {
         display: none;
       }
   }
-
-  .burger {
-    /* border: 1px solid white; */
-    height: 50px;
-    width: 50px;
-    padding: 25px;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: all .7s ease;
-}
-
-.line {
-    width: 27px;
-    height: 3px;
-    /* background-color: rgb(175, 165, 165); */
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    transform: translateX(-50%);
-}
-
-.line:before, .line:after {
-    content: '';
-    width: 27px;
-    height: 3px;
-    position: absolute;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    transition: all .4s ease;
-}
-
-.line:before {
-    margin-top: -8px;
-}
-
-.line:after {
-    margin-top: 8px;
-}
-
-.active1 .line:before {
-    transform: rotate(45deg);
-    background-color: #EE316B;
-    margin-top: 0;
-}
-
-.active1 .line:after {
-    transform: rotate(135deg);
-    background-color: #EE316B;
-    margin-top: 0;
-}
-
-.active1 {
-    background-color: rgba(248, 247, 239, 0.2);
-}
-
-.slide {
-    transform: translateX(0%);
-}
-
-.vanish {
-    background-color: rgba(0, 0, 0, 0);
-}
 
 .hazard-background {
     height: 10px;

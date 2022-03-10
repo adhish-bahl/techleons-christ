@@ -9,15 +9,14 @@
 }
 
 body {
-    /* background-color: rgba(128, 128, 128, 0.527); */
-    background-color: #448681;
+    background-color: rgb(188,188,188);
 }
 
 .heading {
     padding: 3rem 0;
     font-size: 1.8rem;
     font-weight: bold;
-    background-color: rgba(128, 128, 128, 0.527);
+    background-color: rgb(188,188,188);
 }
 
 .person {
