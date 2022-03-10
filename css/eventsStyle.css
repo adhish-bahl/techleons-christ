@@ -9,6 +9,10 @@
 .event {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  /* display: grid;
+  grid-template-columns: auto auto auto; */
+  margin-top: 2rem;
   padding: 2em 5em;
   background-color: rgba(128, 128, 128, 0.527);
   border: 1px solid black;
@@ -28,6 +32,10 @@
 
 .event .name h1 {
   margin-top: 0;
+}
+
+.event .name h3 {
+  text-align: center;
 }
 
 .event .head h3 {

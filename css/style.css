@@ -30,8 +30,9 @@ div.mainHeading {
 	font-size: 2rem;
 }
 
-.desc {
-  text-align: justify;
+.special {
+  color: green;
+  font-size: 1.5rem;
 }
 
 .btn {
