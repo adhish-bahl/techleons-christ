@@ -147,6 +147,8 @@ div.mainHeading {
   margin: 2vw;
   border-radius: 30px;
   text-align: center;
-  /* font-weight: bold; */
-  /* bottom: 5px; */
+}
+
+.navigationBar {
+  padding: 0px 88px;
 }
