@@ -70,6 +70,10 @@
   right: -20px;
   transition: 0.5s;
 }
+
+.btn {
+  width: 250px;
+}
   
 .getStartedBtn:hover span {
   padding-right: 25px;
@@ -80,9 +84,32 @@
   right: 0;
 }
 
+.mobileNav {
+  display: none;
+}
+
+.desktopNav {
+  display: block;
+}
+
+.test {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  width: 100%;
+}
+
 @media only screen and (max-width: 1200px) {
   .container {
     margin: 0 1.5em 5rem 1.5rem;
+  }
+
+  .mobileNav {
+    display: block;
+  }
+
+  .desktopNav {
+    display: none;
   }
   
   .event {
@@ -98,5 +125,12 @@
   .event .name h1 {
     text-align: center;
     padding-top: 1rem;
+  }
+
+  div.navigationBar {
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
   }
 }
