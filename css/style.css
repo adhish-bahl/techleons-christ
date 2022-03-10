@@ -101,3 +101,42 @@ div.mainHeading {
     margin: 50px 0px 0px 0px;
   }
 }
+
+/* GROUPS */
+
+.groups {
+  margin-left: auto;
+  margin-right: auto;
+  width : 100%;
+  display: flex;
+  justify-content: space-evenly;
+  /* display: grid;
+  grid-template-columns: auto auto auto; */
+  padding: 30px;
+}
+
+.groups .card {
+  width:15vw;
+  height: 40vh;
+  background-color: #ff1f50;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(128, 128, 128, 0.527);
+} 
+
+.b1, .b2, .b3, .b4 {
+  background-color:  #333;
+  color: white;
+  width: 10vw;
+  height: 25vh;
+  margin: 2vw;
+  border-radius: 30px;
+  text-align: center;
+  /* font-weight: bold; */
+  /* bottom: 5px; */
+}
