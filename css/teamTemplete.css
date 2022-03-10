@@ -1,16 +1,22 @@
 .tableContainer {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
 }
 
 .table {
     padding: 20px;
-    background-color: cadetblue;
+    background-color: #ff1f50;
     font-size: 1.2rem;
     margin: 25px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .heading {
@@ -23,4 +29,10 @@ table{
 
 table td {
     padding: 5px 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .tableContainer {
+        grid-template-columns: 1fr;
+    }
 }
