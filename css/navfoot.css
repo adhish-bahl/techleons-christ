@@ -34,8 +34,6 @@ body, li, a {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    /* background-color: grey; */
-    /* background-color: #05C7BA; */
     background-color: #028D83;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
