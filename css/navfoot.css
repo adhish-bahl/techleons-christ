@@ -87,12 +87,11 @@ body, li, a {
 }
 
 @media only screen and (max-width: 1200px) {
-
-    .burger{
+    .burger {
         position: block;
     }
 
-    .techLogo h1{
+    .techLogo h1 {
         font-size: 1.3rem;
     }
 
@@ -117,7 +116,6 @@ body, li, a {
     .centerBox  {
         display: none;
     }
-    
   }
 
 
