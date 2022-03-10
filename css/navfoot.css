@@ -123,6 +123,9 @@ body, li, a {
     align-items: center;
     width: 100%;
   }
+  .mobileNav {
+    display: none;
+  }
 
 @media only screen and (max-width: 1200px) {
     .burger {
@@ -165,6 +168,14 @@ body, li, a {
       .link {
         margin: 0px 5px;
     }
+
+    .mobileNav {
+        display: block;
+      }
+    
+      .desktopNav {
+        display: none;
+      }
   }
 
 

@@ -84,23 +84,13 @@
   right: 0;
 }
 
-.mobileNav {
-  display: none;
-}
+
 
 
 
 @media only screen and (max-width: 1200px) {
   .container {
     margin: 0 1.5em 5rem 1.5rem;
-  }
-
-  .mobileNav {
-    display: block;
-  }
-
-  .desktopNav {
-    display: none;
   }
   
   .event {
