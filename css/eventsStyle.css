@@ -88,16 +88,7 @@
   display: none;
 }
 
-.desktopNav {
-  display: block;
-}
 
-.test {
-  display: flex;
-  justify-content:space-around;
-  align-items: center;
-  width: 100%;
-}
 
 @media only screen and (max-width: 1200px) {
   .container {
@@ -125,12 +116,5 @@
   .event .name h1 {
     text-align: center;
     padding-top: 1rem;
-  }
-
-  div.navigationBar {
-    flex-direction: column;
-    height: 200px;
-    justify-content: center;
-    align-items: center;
   }
 }
