@@ -1,0 +1,26 @@
+.tableContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.table {
+    padding: 20px;
+    background-color: cadetblue;
+    font-size: 1.2rem;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+table{
+    border: 1px solid black;
+}
+
+table td {
+    padding: 5px 10px;
+}
