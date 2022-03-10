@@ -114,6 +114,20 @@ body, li, a {
     border-radius: 10px;
 }
 
+.desktopNav {
+    display: block;
+  }
+  
+  .test {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .mobileNav {
+    display: none;
+  }
+
 @media only screen and (max-width: 1200px) {
     .burger {
         position: block;
@@ -144,6 +158,25 @@ body, li, a {
     .centerBox  {
         display: none;
     }
+
+    div.navigationBar {
+        flex-direction: column;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .link {
+        margin: 0px 5px;
+    }
+
+    .mobileNav {
+        display: block;
+      }
+    
+      .desktopNav {
+        display: none;
+      }
   }
 
 
