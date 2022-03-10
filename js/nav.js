@@ -12,8 +12,9 @@ const handle = () => {
     });
     
     burger.addEventListener( 'click', () => {
+        burger.style.backgroundColor = "red"; 
         sideNav.classList.toggle('slide');
-        burger.classList.toggle('active');
+        burger.classList.toggle('active1');
         line.classList.toggle('vanish');
     });
 }
