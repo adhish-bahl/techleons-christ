@@ -14,7 +14,7 @@
   grid-template-columns: auto auto auto; */
   margin-top: 2rem;
   padding: 2em 5em;
-  background-color: rgba(128, 128, 128, 0.527);
+  background-color: var(--grey);
   border: 1px solid black;
   border-radius: 50px;
 }
@@ -46,7 +46,13 @@
   padding-left: 0;
 }
 
+/* .btn {
+  width: 250px;
+} */
+
 .getStartedBtn {
+  color: var(--white);
+  background-color: var(--black);
   text-align: center;
   font-size: 1rem;
   padding: 10px 20px;
@@ -71,22 +77,15 @@
   transition: 0.5s;
 }
 
-.btn {
-  width: 250px;
-}
-  
 .getStartedBtn:hover span {
   padding-right: 25px;
+  color: var(--red);
 }
   
 .getStartedBtn:hover span:after {
   opacity: 1;
   right: 0;
 }
-
-
-
-
 
 @media only screen and (max-width: 1200px) {
   .container {
