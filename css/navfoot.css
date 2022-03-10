@@ -5,6 +5,25 @@
     --head-font: 'Source Code Pro', monospace;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #030000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(214, 55, 55);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(218, 12, 12);
+  }
+
 * {
     padding: 0;
     box-sizing: border-box;
@@ -17,7 +36,11 @@ body, li, a {
     text-decoration: none;
     list-style: none;
     margin: 0%;
-    color: black;
+    /* color: black; */
+}
+
+.instaLogo {
+    filter: invert(100%);
 }
 
 /* .burger {
@@ -36,7 +59,8 @@ body, li, a {
     align-items: center;
     /* background-color: grey; */
     /* background-color: #05C7BA; */
-    background-color: #028D83;
+    /* background-color: #028D83; */
+    background-color:  #333;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -53,17 +77,18 @@ body, li, a {
 
 .christLogo {
     width: 300px;
+    filter: invert(100%);
 }
 
 .link {
     margin: 0px 10px;
-    color: black;
+    color: white;
     padding: 5px;
 }
 
-.link:hover {
-    color: white;
-    transition: all 0.5s ease-in-out;
+.centerBox .link:hover {
+    color:#ff1f50;
+    transition: all 0.3s ease-in-out;
 }
 
 .footer {
@@ -71,8 +96,10 @@ body, li, a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #028D83;
+    /* background-color: #028D83; */
+    background-color:  #333;
     padding: 3vh 0px;
+    color: white;
 }
 
 .footer div {
@@ -81,7 +108,7 @@ body, li, a {
 
 .active {
     border: 1.5px solid black;
-    color: white;
+    color: #ff1f50;
     padding: 5px 10px;
     border-radius: 10px;
 }
