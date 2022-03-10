@@ -28,6 +28,7 @@
 
 div.mainHeading {
 	font-size: 2rem;
+  color: var(--red);
 }
 
 .special {
