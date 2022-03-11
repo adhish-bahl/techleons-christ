@@ -107,18 +107,38 @@ div.mainHeading {
     margin: 50px 0px 0px 0px;
   }
 
-  .boxes {
+  .boxes, #groups {
     /* display: grid;
     grid-template-columns: 1fr; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
     /* width: 80%; */
   }
 
   .boxes div {
     width: 200px;
+  }
+
+  #groups .card {
+    background-color: aliceblue;
+    width: 300px !important;
+    margin-top: 10px;
+  }
+
+  #groups {
+    padding: 0px 0px !important;
+    /* margin-bottom: 20px; */
+  }
+
+  .card {
+    margin-top: 30px !important;
+  }
+
+  .footer {
+    margin-top: 50px;
   }
 }
 
