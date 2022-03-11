@@ -103,6 +103,16 @@ div.mainHeading {
   .theme {
     margin: 50px 0px 0px 0px;
   }
+
+  .boxes {
+    /* display: grid;
+    grid-template-columns: 1fr; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 80%; */
+  }
 }
 
 /* GROUPS */
