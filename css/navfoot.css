@@ -10,7 +10,6 @@
 }
 
 /* SCROLL BAR */
-
 ::-webkit-scrollbar {
 width: 10px;
 }
@@ -44,6 +43,10 @@ body, li, a {
     margin: 0%;
 }
 
+li, a {
+    color: var(--white);
+}
+
 .instaLogo {
     filter: invert(100%);
 }
@@ -55,6 +58,10 @@ body, li, a {
     background-color:  var(--black);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+.dept {
+    color: var(--white);
 }
 
 .leftBox {
@@ -79,7 +86,7 @@ body, li, a {
 }
 
 .link:hover {
-    color:#ff1f50;
+    color: var(--red);
     transition: all 0.3s ease-in-out;
 }
 
@@ -88,9 +95,9 @@ body, li, a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:  #333;
+    background-color: var(--black);
     padding: 3vh 0px;
-    color: white;
+    color: var(--white);
 }
 
 .footer div {
@@ -99,7 +106,7 @@ body, li, a {
 
 .active {
     border: 1.5px solid black;
-    color: #ff1f50;
+    color: var(--red);
     padding: 5px 10px;
     border-radius: 10px;
 }
@@ -113,11 +120,11 @@ body, li, a {
     justify-content:space-around;
     align-items: center;
     width: 100%;
-  }
+}
   
 .mobileNav {
     display: none;
-  }
+}
 
 @media only screen and (max-width: 1200px) {
     .techLogo h1 {
@@ -151,24 +158,24 @@ body, li, a {
         height: 200px;
         justify-content: center;
         align-items: center;
-      }
+    }
 
-      .link {
+    .link {
         margin: 0px 5px;
     }
 
     .mobileNav {
         display: block;
-      }
+    }
     
-      .desktopNav {
+    .desktopNav {
         display: none;
-      }
-  }
+    }
+}
 
 .hazard-background {
     height: 10px;
-    color: white;
+    color: var(--white);
     /* padding: 5px; */
     background-image: repeating-linear-gradient(
       -55deg,
