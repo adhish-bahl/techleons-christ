@@ -117,6 +117,14 @@ div.mainHeading {
   padding: 0px 88px;
 }
 
+.timeDisplay {
+  font-size: 3rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
 @media only screen and (max-width: 1200px) {
   .heading div {
     margin: 20px 20px;
