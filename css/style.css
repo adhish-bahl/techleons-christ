@@ -116,6 +116,10 @@ div.mainHeading {
     flex-direction: column;
     /* width: 80%; */
   }
+
+  .boxes div {
+    width: 200px;
+  }
 }
 
 /* GROUPS */
