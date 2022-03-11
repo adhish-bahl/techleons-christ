@@ -80,6 +80,43 @@ div.mainHeading {
   right: 0;
 }
 
+#groups {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  margin: 3rem 0;
+}
+
+#groups .card {
+  background-color: var(--red);
+  margin: 0 5rem;
+  padding: 1.5rem;
+  border-radius: 30px;
+}
+
+#groups .card:hover {
+  background-color: #f81042;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--grey);
+} 
+
+.b1, .b2, .b3, .b4 {
+  background-color:  var(--black);
+  color: var(--white);
+  width: 10vw;
+  height: 25vh;
+  margin: 2vw;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.navigationBar {
+  padding: 0px 88px;
+}
+
 @media only screen and (max-width: 1200px) {
   .heading div {
     margin: 20px 20px;
@@ -118,23 +155,26 @@ div.mainHeading {
     /* width: 80%; */
   }
 
+  /* #groups {
+    display: grid;
+  } */
+
   .boxes div {
     width: 200px;
   }
 
   #groups .card {
-    background-color: aliceblue;
-    width: 300px !important;
+    /* width: 250px; */
     margin-top: 10px;
   }
 
   #groups {
-    padding: 0px 0px !important;
+    padding: 0px 0px;
     /* margin-bottom: 20px; */
   }
 
   .card {
-    margin-top: 30px !important;
+    margin-top: 30px;
   }
 
   .footer {
@@ -144,39 +184,3 @@ div.mainHeading {
 
 /* GROUPS */
 
-#groups {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  margin: 3rem 0;
-}
-
-#groups .card {
-  background-color: var(--red);
-  margin: 0 5rem;
-  padding: 1.5rem;
-  border-radius: 30px;
-}
-
-#groups .card:hover {
-  background-color: #f81042;
-}
-
-.boxes {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: var(--grey);
-} 
-
-.b1, .b2, .b3, .b4 {
-  background-color:  var(--black);
-  color: var(--white);
-  width: 10vw;
-  height: 25vh;
-  margin: 2vw;
-  border-radius: 30px;
-  text-align: center;
-}
-
-.navigationBar {
-  padding: 0px 88px;
-}
