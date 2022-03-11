@@ -7,6 +7,7 @@
     --white: white;
     --red: #ff1f50;
     --grey: rgba(128, 128, 128, 0.527);
+    --blue: rgb(14, 44, 134);
 }
 
 /* SCROLL BAR */
@@ -127,37 +128,36 @@ li, a {
 }
 
 @media only screen and (max-width: 1200px) {
-    .techLogo h1 {
-        font-size: 1.3rem;
+    div.navigationBar {
+        flex-direction: column;
+        /* height: 100px !important; */
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
+    
+    .dept {
+        font-size: 0.6rem ;
+    }
+
+    .techLogo h1 {
+        font-size: 1.2rem;
+    }
+
+    .techLogo h2 {
+        font-size: 1.2rem;
+    }
+
+    /* div.techLogo {
+        margin-bottom: 20px;
+    } */
 
     .christLogo {
         width: 150px;
     }
 
-    div.techLogo h1 {
-        font-size: 1.5rem;
-    }
-
-    div.techLogo {
-        margin-bottom: 20px;
-    }
-    
-    div.copyright {
-        font-size: 1rem;
-        margin: 0px 30px;
-        margin-bottom: 20px;
-    }
-
     .centerBox  {
         display: none;
-    }
-
-    div.navigationBar {
-        flex-direction: column;
-        height: 200px;
-        justify-content: center;
-        align-items: center;
     }
 
     .link {
@@ -170,6 +170,16 @@ li, a {
     
     .desktopNav {
         display: none;
+    }
+
+    div.copyright {
+        font-size: 1rem;
+        margin: 0px 30px;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        padding: 10px;
     }
 }
 
