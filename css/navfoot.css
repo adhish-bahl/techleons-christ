@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,700&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Poppins:wght@300&display=swap');
 
 :root {
-    --gen-font: 'Merriweather', serif;
-    --head-font: 'Source Code Pro', monospace;
+    --gen-font: 'Poppins', sans-serif;
+    --head-font: 'Montserrat Subrayada', sans-serif;
     --black: #333;
     --white: white;
     --red: #ff1f50;
@@ -48,6 +48,14 @@ li, a {
     color: var(--white);
 }
 
+h1, h2, h3, .special {
+    font-family: var(--head-font);
+}
+
+p, li, a, button, table, th, td {
+    font-family: var(--gen-font);
+}
+
 .instaLogo {
     filter: invert(100%);
 }
@@ -70,7 +78,6 @@ li, a {
 }
 
 .techLogo h1 {
-    font-family: var(--gen-font);
     margin: 0%;
     padding: 0%;
 }
