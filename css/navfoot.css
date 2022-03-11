@@ -185,7 +185,6 @@ li, a {
 .hazard-background {
     height: 10px;
     color: var(--white);
-    /* padding: 5px; */
     background-image: repeating-linear-gradient(
       -55deg,
       #000,

@@ -145,32 +145,23 @@ div.mainHeading {
   }
 
   .boxes, #groups {
-    /* display: grid;
-    grid-template-columns: 1fr; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    /* width: 80%; */
   }
-
-  /* #groups {
-    display: grid;
-  } */
 
   .boxes div {
     width: 200px;
   }
 
   #groups .card {
-    /* width: 250px; */
     margin-top: 10px;
   }
 
   #groups {
     padding: 0px 0px;
-    /* margin-bottom: 20px; */
   }
 
   .card {
@@ -181,6 +172,3 @@ div.mainHeading {
     margin-top: 50px;
   }
 }
-
-/* GROUPS */
-
