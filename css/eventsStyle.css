@@ -10,8 +10,6 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  /* display: grid;
-  grid-template-columns: auto auto auto; */
   margin-top: 2rem;
   padding: 2em 5em;
   background-color: var(--grey);
@@ -45,10 +43,6 @@
 .event .head .email {
   padding-left: 0;
 }
-
-/* .btn {
-  width: 250px;
-} */
 
 .getStartedBtn {
   color: var(--white);
