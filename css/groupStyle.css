@@ -9,7 +9,7 @@
 
 .table {
     padding: 20px;
-    background-color: #ff1f50;
+    background-color: var(--red);
     font-size: 1.2rem;
     margin: 25px;
     border-radius: 10px;

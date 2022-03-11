@@ -28,6 +28,8 @@
 
 div.mainHeading {
 	font-size: 2rem;
+  color: var(--red);
+  margin-top: 0;
 }
 
 .special {
@@ -38,6 +40,7 @@ div.mainHeading {
 .btn {
   background-color: var(--grey);
   padding-bottom: 4rem;
+  padding-top: 4rem;
 }
 
 .getStartedBtn {
@@ -124,14 +127,14 @@ div.mainHeading {
   display: flex;
   justify-content: space-evenly;
   /* display: grid;
-  grid-template-columns: auto auto auto; */
+  grid-template-columns: 1fr 1fr 1fr; */
   padding: 30px;
 }
 
 #groups .card {
-  width:15vw;
+  width: 15vw;
   height: 40vh;
-  background-color: #ff1f50;
+  background-color: var(--red);
   padding: 30px;
   border-radius: 30px;
 }
