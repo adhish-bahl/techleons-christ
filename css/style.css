@@ -98,6 +98,10 @@ div.mainHeading {
   background-color: #f81042;
 }
 
+.card h2 {
+  margin: 0;
+}
+
 .boxes {
   display: flex;
   justify-content: space-evenly;
@@ -108,7 +112,7 @@ div.mainHeading {
   background-color:  var(--black);
   color: var(--white);
   width: 10vw;
-  height: 25vh;
+  /* height: 25vh; */
   margin: 2vw;
   border-radius: 30px;
   text-align: center;
