@@ -24,13 +24,11 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 50px;
-
 }
 
 .person img {
     height: 150px;
     border-radius: 100%;
-
 }
 
 .name{
@@ -53,6 +51,7 @@ body {
 .person a {
     color: black;
 }
+
 .navigationBar {
     border: 1px solid black;
 }
