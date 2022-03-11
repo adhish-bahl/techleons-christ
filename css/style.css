@@ -92,6 +92,7 @@ div.mainHeading {
   padding: 1.5rem;
   border-radius: 30px;
   margin-bottom: 2rem;
+  color: var(--black);
 }
 
 #groups .card:hover {
