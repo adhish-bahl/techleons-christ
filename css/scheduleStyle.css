@@ -23,4 +23,7 @@ td {
     table {
         font-size: .8rem;
     }
-}
+    tr td:nth-child(3), tr th:nth-child(3) {
+        display: none;
+    }
+} 

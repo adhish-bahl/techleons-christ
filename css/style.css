@@ -136,6 +136,11 @@ div.mainHeading {
   font-size: 1.5rem;
 }
 
+.groupLogo {
+  border-radius: 100%;
+  width: 100px;
+}
+
 @media only screen and (max-width: 1200px) {
   .heading div {
     margin: 20px 20px;
