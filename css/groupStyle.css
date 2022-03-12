@@ -19,6 +19,7 @@
 }
 
 .table:hover {
+    background-color: #f80a3e;
     transform: scale(1.04);
     transition: all 0.3s ease-in-out;
     box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
