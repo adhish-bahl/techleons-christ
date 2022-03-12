@@ -93,10 +93,18 @@ div.mainHeading {
   border-radius: 30px;
   margin-bottom: 2rem;
   color: var(--black);
+  box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
 }
 
 #groups .card:hover {
   background-color: #f81042;
+  box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
+  transform: scale(1.009);
+  transition: all 0.3s ease-in-out;
 }
 
 .card h2 {
@@ -117,6 +125,18 @@ div.mainHeading {
   margin: 2vw;
   border-radius: 30px;
   text-align: center;
+  border: black 1 px solid;
+  box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+}
+
+.boxes div:hover {
+    transform: scale(1.009);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
 }
 
 .navigationBar {

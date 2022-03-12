@@ -13,6 +13,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+}
+
+.table:hover {
+    transform: scale(1.04);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
 }
 
 .heading {
@@ -27,17 +38,12 @@ table td {
     padding: 5px 10px;
 }
 
-@media only screen and (max-width: 1200px) {
-    .tableContainer {
-        grid-template-columns: 1fr;
-    }
-}
-
 .fixedButton{
     position: fixed;
     bottom: 0px;
     right: 0px; 
     margin: 20px;
+    z-index: 100;
 }
 
 .roundedFixedBtn:hover{
@@ -59,4 +65,14 @@ table td {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .tableContainer {
+        grid-template-columns: 1fr;
+    }
 }
