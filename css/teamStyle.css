@@ -67,7 +67,8 @@ body {
     .heading {
         padding: 1.5rem 0rem;
         font-size: 1.3rem;
-        background-color: rgba(128, 128, 128, 0.527);
+        background-color: rgb(188,188,188);
+        /* background-color: red; */
     }
     
     .person {
