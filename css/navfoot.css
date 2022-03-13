@@ -60,10 +60,6 @@ p, li, a, button, table, th, td {
     font-family: var(--gen-font);
 }
 
-.instaLogo {
-    filter: invert(100%);
-}
-
 .navigationBar {
     display: flex;
     justify-content:space-between;

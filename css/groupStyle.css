@@ -77,3 +77,9 @@ table td {
         grid-template-columns: 1fr;
     }
 }
+
+.groupLogo {
+    border-radius: 100%;
+    width: 200px;
+    margin-top: 50px;
+}
