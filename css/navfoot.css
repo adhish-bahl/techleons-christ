@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=IBM+Plex+Serif&family=Merriweather:wght@700&family=Montserrat+Subrayada&family=Poppins:wght@300&family=Varela&display=swap');
 
 :root {
     --gen-font: 'Poppins', sans-serif;
     --head-font: 'Montserrat Subrayada', sans-serif;
+    /* --head-font: 'Exo 2', sans-serif;
+    --head-font: 'IBM Plex Serif', serif;
+    --head-font: 'Merriweather', serif;
+    --head-font: 'Varela', sans-serif; */
     --black: #333;
     --white: white;
     --red: #ff1f50;
@@ -54,10 +58,6 @@ h1, h2, h3, .special {
 
 p, li, a, button, table, th, td {
     font-family: var(--gen-font);
-}
-
-.instaLogo {
-    filter: invert(100%);
 }
 
 .navigationBar {
@@ -140,7 +140,7 @@ p, li, a, button, table, th, td {
         /* height: 100px !important; */
         justify-content: center;
         align-items: center;
-        padding: 10px;
+        padding: 10px 10px 20px 10px;
     }
     
     .dept {

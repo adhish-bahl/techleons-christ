@@ -19,7 +19,8 @@
 }
 
 .table:hover {
-    transform: scale(1.02);
+    background-color: #f80a3e;
+    transform: scale(1.04);
     transition: all 0.3s ease-in-out;
     box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
@@ -75,4 +76,10 @@ table td {
     .tableContainer {
         grid-template-columns: 1fr;
     }
+}
+
+.groupLogo {
+    border-radius: 100%;
+    width: 200px;
+    margin-top: 50px;
 }
