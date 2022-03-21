@@ -21,8 +21,23 @@
   -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
 }
 
+.event {
+  display: grid;
+  grid-template-columns: 1fr 6fr 2fr;
+}
+
+.event div:nth-child(1) {
+  padding-left: 20px;
+}
+
+.name h4 {
+  /* align-items: left; */
+  text-align: left;
+  padding-left: 30px;
+}
+
 .event:hover {
-  transform: scale(1.008);
+  transform: scale(1.005);
   transition: all 0.3s ease-in-out;
   box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
