@@ -237,6 +237,16 @@ div.mainHeading {
   .footer {
     margin-top: 50px;
   }
+
+  .getStartedBtn span {
+    font-size: 1rem;
+  }
+
+  .roundedFixedBtn {
+    width: fit-content;
+    height: fit-content;
+    padding: 7px 15px;
+  }
 }
 
 .FBILogo {
