@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&family=IBM+Plex+Serif&family=Merriweather:wght@700&family=Montserrat+Subrayada&family=Poppins:wght@300&family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 :root {
     --gen-font: 'Poppins', sans-serif;
-    --head-font: 'Montserrat Subrayada', sans-serif;
+    --head-font: 'Lora', serif;
+    --tech-font: 'Bungee', cursive;
     --black: #333;
     --white: white;
     --red: #ff1f50;
@@ -69,6 +72,10 @@ p, li, a, button, table, th, td {
     color: var(--white);
 }
 
+.dept h2 {
+    font-size: 1.35rem;
+}
+ 
 .leftBox {
     margin-left: 20px;
 }
@@ -76,6 +83,13 @@ p, li, a, button, table, th, td {
 .techLogo h1 {
     margin: 0%;
     padding: 0%;
+}
+
+.techLogo .link h1 {
+    font-family: var(--tech-font);
+    margin: 0%;
+    height: fit-content;
+    font-size: 3.5rem;
 }
 
 .christLogo {
