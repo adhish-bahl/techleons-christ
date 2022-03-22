@@ -218,6 +218,10 @@ div.mainHeading {
     flex-wrap: wrap;
   }
 
+  .boxes {
+    padding-bottom: 30px;
+  }
+
   .boxes div {
     width: 200px;
   }
