@@ -47,12 +47,12 @@ table td {
     z-index: 100;
 }
 
-.roundedFixedBtn:hover{
+.roundedFixedBtn:hover {
     color: #ff1f50;
     transition: all 0.3s ease-in-out;
 }
 
-.roundedFixedBtn{
+.roundedFixedBtn {
   height: 50px;
   width: 80px;  
   border-radius: 10px;

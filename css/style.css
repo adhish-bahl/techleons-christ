@@ -37,28 +37,25 @@ div.mainHeading {
   font-size: 1.8rem;
 }
 
-.btn {
+/* .btn {
   background-color: var(--grey);
   padding-bottom: 4rem;
   padding-top: 4rem;
-}
+} */
 
 .getStartedBtn {
-  color: var(--white);
-  background-color: var(--black);
   text-align: center;
   font-size: 1rem;
-  padding: 20px;
   border: 1px solid black;
   border-radius: 10px;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
   
 .getStartedBtn span {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: 0.5s;
+  transition: 0.3s;
 }
   
 .getStartedBtn span:after {
@@ -67,17 +64,42 @@ div.mainHeading {
   opacity: 0;
   top: 0;
   right: -20px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
   
 .getStartedBtn:hover span {
   padding-right: 25px;
-  color: var(--red);
 }
   
 .getStartedBtn:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.fixedButton{
+  position: fixed;
+  bottom: 0px;
+  right: 0px; 
+  margin: 20px;
+  z-index: 100;
+}
+
+.roundedFixedBtn:hover {
+  color: var(--white);
+  transition: all 0.3s ease-in-out;
+}
+
+.roundedFixedBtn {
+  height: 50px;
+  width: 220px;  
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: var(--red);
+  color: var(--black);
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid black;
 }
 
 #groups {
@@ -132,11 +154,11 @@ div.mainHeading {
 }
 
 .boxes div:hover {
-    transform: scale(1.009);
-    transition: all 0.3s ease-in-out;
-    box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
+  transform: scale(1.009);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 16px 16px 19px 0px rgba(0,0,0,0.75);
 }
 
 .navigationBar {
