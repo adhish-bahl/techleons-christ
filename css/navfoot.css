@@ -6,10 +6,6 @@
     --gen-font: 'Poppins', sans-serif;
     --head-font: 'Lora', serif;
     --tech-font: 'Bungee', cursive;
-    /* --head-font: 'Exo 2', sans-serif;
-    --head-font: 'IBM Plex Serif', serif;
-    --head-font: 'Merriweather', serif;
-    --head-font: 'Varela', sans-serif; */
     --black: #333;
     --white: white;
     --red: #ff1f50;
@@ -151,7 +147,6 @@ p, li, a, button, table, th, td {
 @media only screen and (max-width: 1200px) {
     div.navigationBar {
         flex-direction: column;
-        /* height: 100px !important; */
         justify-content: center;
         align-items: center;
         padding: 10px 10px 20px 10px;
@@ -165,13 +160,13 @@ p, li, a, button, table, th, td {
         font-size: 1.2rem;
     }
 
+    .techLogo>.link>h1 {
+        font-size: 20px;
+    } 
+
     .techLogo h2 {
         font-size: 1.2rem;
     }
-
-    /* div.techLogo {
-        margin-bottom: 20px;
-    } */
 
     .christLogo {
         width: 150px;
