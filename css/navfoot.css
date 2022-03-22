@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&family=IBM+Plex+Serif&family=Merriweather:wght@700&family=Montserrat+Subrayada&family=Poppins:wght@300&family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 :root {
     --gen-font: 'Poppins', sans-serif;
@@ -149,10 +150,12 @@ p, li, a, button, table, th, td {
 
     .techLogo h1 {
         font-size: 1.2rem;
+        font-family: 'Bungee', cursive;
     }
-
+    
     .techLogo h2 {
         font-size: 1.2rem;
+        font-family: 'Bungee', cursive;
     }
 
     /* div.techLogo {
