@@ -137,6 +137,7 @@ div.mainHeading {
   display: flex;
   justify-content: space-evenly;
   background-color: var(--grey);
+  padding-bottom: 50px;
 } 
 
 .b1, .b2, .b3, .b4 {
