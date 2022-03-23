@@ -253,3 +253,7 @@ div.mainHeading {
 .FBILogo {
   border-radius: 0%;
 }
+
+img.groupLogo {
+  margin-top: 0;
+}
