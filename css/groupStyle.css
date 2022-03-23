@@ -99,3 +99,8 @@ td {
 .FBILogo {
     border-radius: 0%;
 }
+
+.legend {
+    text-align: right;
+    padding-right: 2rem;
+}
