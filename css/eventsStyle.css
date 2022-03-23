@@ -30,9 +30,7 @@
 }
 
 .name h4 {
-  /* align-items: left; */
   text-align: left;
-  /* padding-left: 30px; */
 }
 
 .event:hover {
@@ -60,14 +58,6 @@
 
 .event .name h3 {
   text-align: center;
-}
-
-.event .head h3 {
-  margin-bottom: 0;
-}
-
-.event .head .email {
-  padding-left: 0;
 }
 
 .getStartedBtn {
@@ -128,9 +118,9 @@
   }
 
   .event {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .event div:nth-child(1) {
@@ -138,12 +128,24 @@
   }
 
   .name h4 {
-  text-align: center;
-  padding-left: 0px;
-}
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  #guidelines {
+    text-align: center;
+  }
 }
 
 h4 {
   text-align: center;
   font-size: 1.2rem;
+}
+
+#guidelines .getStartedBtn {
+  padding: 5px 10px;
+}
+
+#guidelines .getStartedBtn span {
+  font-size: 0.8rem;
 }
