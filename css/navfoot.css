@@ -204,6 +204,10 @@ p, li, a, button, table, th, td {
         margin-bottom: 20px;
     }
 
+    .reminder Marquee{
+        scrollamount: 10;
+    }
+
     .footer {
         padding: 10px;
     }
