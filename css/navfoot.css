@@ -28,6 +28,15 @@ background: #030000;
 background: rgb(214, 55, 55);
 }
 
+.reminder {
+  position: fixed;
+  bottom: 0px;
+  right: 0px; 
+  font-size: 1.5rem;
+  z-index: 100;
+  background-color: var(--red);
+}
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
 background: rgb(218, 12, 12);

@@ -78,7 +78,7 @@ div.mainHeading {
 
 .fixedButton{
   position: fixed;
-  bottom: 0px;
+  bottom: 40px;
   right: 0px; 
   margin: 20px;
   z-index: 100;
