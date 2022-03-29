@@ -36,6 +36,7 @@ background: rgb(214, 55, 55);
   z-index: 100;
   background-color: var(--red);
   /* color: var(--black); */
+  display: none;
 }
 
 /* Handle on hover */
@@ -203,10 +204,6 @@ p, li, a, button, table, th, td {
         font-size: 1rem;
         margin: 0px 30px;
         margin-bottom: 20px;
-    }
-
-    .reminder Marquee{
-        scrollamount: 10;
     }
 
     .footer {
