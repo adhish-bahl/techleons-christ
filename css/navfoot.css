@@ -35,7 +35,7 @@ background: rgb(214, 55, 55);
   font-size: 1.5rem;
   z-index: 100;
   background-color: var(--red);
-  display: none;
+  /* display: none; */
 }
 
 /* Handle on hover */
